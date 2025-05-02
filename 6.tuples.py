@@ -5,3 +5,4 @@ print(type(tuple))
 
 
 # Write a code to check palindrome
+
