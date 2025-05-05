@@ -22,11 +22,20 @@ dict1 = {
     }
 }
 
-# print(dict1["Subjects"]["Physics"])
+print(dict1["Subjects"]["Physics"])
 
 print(tuple(dict1.keys()))
 
-print()
+print(tuple(dict1.items()))
+
+print(dict1.get("name"))
+print(dict1['Subjects']["Math"])
+
+dict1.update({"CITY":"KOLKATA"})
+print(dict1)
+
+
+
 
 
 
